@@ -4,7 +4,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-var VersionConfirm = "v2.0.0"
+var VersionConfirm = "v1.1.0"
 
 func init() {
 	log.Infof("Version %v load", VersionConfirm)
