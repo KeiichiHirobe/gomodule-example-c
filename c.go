@@ -4,7 +4,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-var VersionConfirm = "v1.0.0"
+var VersionConfirm = "v1.1.0"
 
 func init() {
 	log.Infof("Version %v load", VersionConfirm)
@@ -16,4 +16,8 @@ func GetVersionConfirm() string {
 
 func SetVersionConfirm(s string) {
 	VersionConfirm = s
+}
+
+func GetDecolatedVersionConfirm() string {
+	return VersionConfirm + "!!!!!!"
 }
