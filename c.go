@@ -18,6 +18,6 @@ func SetVersionConfirm(s string) {
 	VersionConfirm = s
 }
 
-func GetDecolatedVersionConfirm() string {
+func GetDecoratedVersionConfirm() string {
 	return VersionConfirm + "!!!!!!"
 }
